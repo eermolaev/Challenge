@@ -1,0 +1,20 @@
+{
+  "name": "eermolaev/challenge",
+  "description": "Eermolaev Challenge",
+  "type": "magento2-module",
+  "version": "2.1.1",
+  "license": [
+    "gpl-3.0"
+  ],
+  "require": {
+    "magento/framework": ">102"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Eermolaev\\Challenge\\": ""
+    }
+  }
+}
